@@ -7,7 +7,7 @@ class UserManagement(models.Model):
     lastname = models.CharField(max_length=30)
     username = models.EmailField(max_length=256)
     password = models.CharField(max_length=256)
-    brithday = models.DateTimeField()
+    birthday = models.DateTimeField()
     profile_photo = models.CharField(max_length=30)
     phone_number = models.CharField(max_length=30)
     location = models.CharField(max_length=256)

@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'inventory_history',
     'inventory_management',
     'user_management',
-    'production_sheet'
+    'production_sheet',
+    "graphene_django"
 ]
 
 MIDDLEWARE = [
